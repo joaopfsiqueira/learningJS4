@@ -27,12 +27,13 @@ const data = [
 
 
 async function exemploAssign(data) {
-
     const result = data.map(item => ({
         [item.key]: item.value
     }))
 
-    return (console.log(result))
+    // return (console.log(result)) 
+    return (console.log(Object.assign(...result)))
+    // Object.assign faz uma junção de todos os objetos, transfornado tudo em um só.
 }
 
 
