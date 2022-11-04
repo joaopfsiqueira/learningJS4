@@ -38,3 +38,6 @@ async function exemploAssign(data) {
 
 
 exemploAssign(data)
+
+
+
